@@ -1,0 +1,41 @@
+header{
+    background-color:rgb(6, 13, 100);
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+    margin: 2mm;
+    padding: 20px;
+    color:black;
+}
+img{
+    width:300px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(10, 49, 121);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: green;
+}
