@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>contact Us
+  </title>
+  <link rel="stylesheet" href="contactUs.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>In_Infos</h1>
+      <h3>You Can Contact US</h3>
+      <h2 style="padding-top: 1cm;"><a href="task.html">home</a></h2>
+    </header>
+
+    <!-- Contact Form -->
+    <section class="form-section">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label>Name:
+          <input type="text" id="name" required />
+        </label>
+
+        <label>Email:
+          <input type="email" id="email" required />
+        </label>
+
+        <label>Message:
+          <textarea id="message" rows="4" required></textarea>
+        </label>
+
+        <button type="submit">Submit</button>
+        <p id="formError" class="error"></p>
+      </form>
+    </section>
+    <footer>
+      <p>© 2025 My Website</p>
+    </footer>
+  </div>
+
+  <script src="contactUs.js"></script>
+</body>
+
+</html>

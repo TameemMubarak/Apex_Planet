@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Article */
+article {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+/* Button in article */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+article button {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+article button:hover {
+  background-color: #005fa3;
+}
+
+/* Carousel Section */
+.carousel-section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.carousel-btn:hover {
+  background-color: #333;
+}
+
+#carousel-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+/* Joke Section */
+.joke-section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.joke-section button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.joke-section button:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+footer {
+  background-color: dimgray;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+  .navbar {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  #carousel-image {
+      width: 100%;
+      height: auto;
+  }
+
+  footer {
+      flex-direction: column;
+      text-align: center;
+  }
+}
+
+
